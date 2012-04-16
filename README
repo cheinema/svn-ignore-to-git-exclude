@@ -1,0 +1,7 @@
+SVN Ignore to Git Exclude converter
+-----------------------------------
+
+This tool converts the XML output of 'svn propget' into the git exclude format. 
+Run 'svn propget svn:ignore --recursive --xml' in a SVN working copy and pipe
+the output into the command 'java -jar svn-ignore-to-git-exclude-1.0.0.jar'.
+The JAR can be found in directory 'target' after 'mvn package' has been run.
